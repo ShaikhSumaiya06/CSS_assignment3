@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(40, 45, 54);
+        }
+        
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+            border: 10px solid #fff;
+            border-radius: 50%;
+            position: relative;
+            margin-left: -50px;
+        }
+        
+        img[alt="artist-1"] {
+            z-index: 10;
+        }
+        
+        img[alt="artist-2"] {
+            z-index: 9;
+        }
+        
+        img[alt="artist-3"] {
+            z-index: 8;
+        }
+        
+        img[alt="artist-4"] {
+            z-index: 7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../media/imagesSet/avatar1.jpg" alt="artist-1">
+        <img src="../media/imagesSet/avatar2.webp" alt="artist-2">
+        <img src="../media/imagesSet/avatar3.webp" alt="artist-3">
+        <img src="../media/imagesSet/avatar4.avif" alt="artist-4">
+    </div>
+</body>
+
+</html>
